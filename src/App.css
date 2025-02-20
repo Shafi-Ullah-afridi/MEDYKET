@@ -1,0 +1,36 @@
+.slick-dots li button:before {
+    font-size: 12px;
+    color: #007bff; /* Bullet color */
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #0056b3; /* Active bullet color */
+  }
+  .custom-arrow {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    color: #000f20;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-arrow:hover {
+    color: #ff5733;
+  }
+  .custom-arrow {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #000f20;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .custom-arrow:hover {
+    color: #ff5733;
+  }
+    
