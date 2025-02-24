@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MEDYKET/static/css/main.11e4dc66.css",
-    "main.js": "/MEDYKET/static/js/main.741e873f.js",
+    "main.js": "/MEDYKET/static/js/main.a86cac38.js",
     "static/js/488.6414fce0.chunk.js": "/MEDYKET/static/js/488.6414fce0.chunk.js",
     "static/media/feedback.jpg": "/MEDYKET/static/media/feedback.c070db822ad076507a7e.jpg",
     "static/media/make-appointment.png": "/MEDYKET/static/media/make-appointment.6b70e2b13a2c28a2039c.png",
@@ -20,11 +20,11 @@
     "static/media/slick.woff": "/MEDYKET/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/MEDYKET/index.html",
     "main.11e4dc66.css.map": "/MEDYKET/static/css/main.11e4dc66.css.map",
-    "main.741e873f.js.map": "/MEDYKET/static/js/main.741e873f.js.map",
+    "main.a86cac38.js.map": "/MEDYKET/static/js/main.a86cac38.js.map",
     "488.6414fce0.chunk.js.map": "/MEDYKET/static/js/488.6414fce0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.11e4dc66.css",
-    "static/js/main.741e873f.js"
+    "static/js/main.a86cac38.js"
   ]
 }
