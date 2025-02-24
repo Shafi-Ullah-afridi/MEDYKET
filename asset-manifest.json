@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/MEDYKET/static/css/main.11e4dc66.css",
+    "main.js": "/MEDYKET/static/js/main.0393ce50.js",
+    "static/js/488.6414fce0.chunk.js": "/MEDYKET/static/js/488.6414fce0.chunk.js",
+    "static/media/feedback.jpg": "/MEDYKET/static/media/feedback.c070db822ad076507a7e.jpg",
+    "static/media/make-appointment.png": "/MEDYKET/static/media/make-appointment.6b70e2b13a2c28a2039c.png",
+    "static/media/faq-background.jpg": "/MEDYKET/static/media/faq-background.97ef5a8ee50df6f3705e.jpg",
+    "static/media/doctor-removebg-preview.png": "/MEDYKET/static/media/doctor-removebg-preview.a36ab1caa8e73ccd2cb4.png",
+    "static/media/dental.png": "/MEDYKET/static/media/dental.2e49894301c65e5dc790.png",
+    "static/media/logo.svg": "/MEDYKET/static/media/logo.4b41e21a4a5e65ba06b2503d37814fde.svg",
+    "static/media/doctors-4.jpg": "/MEDYKET/static/media/doctors-4.d2e578c3fa467ad05022.jpg",
+    "static/media/doctors-1.jpg": "/MEDYKET/static/media/doctors-1.eec585aaa98d4430c7c4.jpg",
+    "static/media/doctors-3.jpg": "/MEDYKET/static/media/doctors-3.80b20cb68fe60a73a169.jpg",
+    "static/media/doctors-2.jpg": "/MEDYKET/static/media/doctors-2.07d1b7c11067d81329ad.jpg",
+    "static/media/hero.png": "/MEDYKET/static/media/hero.6918a744b9ed536b00db.png",
+    "static/media/slick.svg": "/MEDYKET/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MEDYKET/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MEDYKET/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MEDYKET/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MEDYKET/index.html",
+    "main.11e4dc66.css.map": "/MEDYKET/static/css/main.11e4dc66.css.map",
+    "main.0393ce50.js.map": "/MEDYKET/static/js/main.0393ce50.js.map",
+    "488.6414fce0.chunk.js.map": "/MEDYKET/static/js/488.6414fce0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11e4dc66.css",
+    "static/js/main.0393ce50.js"
+  ]
+}
