@@ -56,7 +56,7 @@ const Navbar = () => {
            <img onClick={()=>setShowMenu(true)} className='w-6 md:hidden' src={assets.menu_icon} alt="" />
            {/* ---------- Mobile menu -------------*/}
            <div className={`${showMenu ? 'fixed w-full' : 'h-0 w-0'} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
-            <div className='flex item-center justify-between px-5 py-6'>
+            <div className='flex items-center justify-between px-5 py-6'>
                 <img className='w-36' src={assets.logo} alt="" />
                 <img className='w-7' onClick={()=>setShowMenu(false)} src={assets.cross_icon} alt="" />
             </div>

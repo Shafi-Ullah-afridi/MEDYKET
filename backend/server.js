@@ -30,7 +30,7 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen(port,()=> console.log("server stated",port))
-
+//app.listen(port,()=> console.log("server stated",port))
+export default app
 
 
