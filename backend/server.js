@@ -1,9 +1,6 @@
 import express from "express";
 import cors from "cors";
-import "dotenv/config";
-import path from "path";
-import { fileURLToPath } from "url";
-
+import "dotenv/config.js";
 import connectDB from "./config/mongodb.js";
 import connectCloudinary from "./config/cloudinary.js";
 import adminRouter from "./routes/adminRoutes.js";
@@ -29,22 +26,12 @@ app.use("/api/user", userRouter);
 
 // ===== Test Route =====
 app.get("/", (req, res) => {
-  res.send("API working successfully");
-});
-
-// ===== Serve Frontend Build (for Vercel) =====
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-app.use(express.static(path.join(__dirname, "dist")));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "dist", "index.html"));
+  res.send("API working successfully ✅");
 });
 
 // ===== Export App for Vercel =====
 export default app;
 
 // ===== Optional for Local Dev =====
-// Uncomment this only if testing locally
-// app.listen(port, () => console.log("Server started on port", port));
+// Uncomment below line when running locally (not on Vercel)
+// app.listen(port, () => console.log("Server running on port", port));
