@@ -9,7 +9,7 @@ const MyAppointment = () => {
 
   const getUserAppointments = async () => {
     try {
-      const { data } = await axios.get(backendUrl + '/api/user/appointments', {
+      const { data } = await axios.get(`${backendUrl}/api/user/appointments`, {
         headers: { token }
       })
 
@@ -26,7 +26,7 @@ const MyAppointment = () => {
 
     try {
 
-      const { data } = await axios.post(backendUrl + '/api/user/cancel-appointment', { appointmentId }, { headers: { token } })
+      const { data } = await axios.post(`${backendUrl}/api/user/cancel-appointment`, { appointmentId }, { headers: { token } })
       if (data.success) {
         toast.success(data.message)
         getUserAppointments()

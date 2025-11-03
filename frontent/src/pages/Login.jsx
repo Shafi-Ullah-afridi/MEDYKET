@@ -20,7 +20,7 @@ const Login = () => {
 
     try{
       if(state === 'Sign Up'){
-        const{data} = await axios.post(backendUrl+ '/api/user/register',{name,password,email})
+        const{data} = await axios.post(`${backendUrl}/api/user/register`,{name,password,email})
         if(data.success){
           localStorage.setItem('token',data.token)
           setToken(data.token)
@@ -29,7 +29,7 @@ const Login = () => {
         }
       }
       else{
-        const{data} = await axios.post(backendUrl+ '/api/user/login',{password,email})
+        const{data} = await axios.post(`${backendUrl}/api/user/login`,{password,email})
         if(data.success){
           localStorage.setItem('token',data.token)
           setToken(data.token)
